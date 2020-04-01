@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sen:wght@400;700&display=swap');
+
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: white; 
+}
+
+body {
+    background-color: #58101B;
+    color: white;
+    font-family: 'Sen', sans-serif;    
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
+.high-or-low {
+    visibility: hidden;
+}
+
+.lose-or-win {
+    visibility: hidden;
+}
