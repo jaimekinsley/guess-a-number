@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+<div class = 'container'> 
+<h1>Guess a Number!</h1>
+<img src = "https://preview.redd.it/a7n309o5kok41.jpg?width=960&crop=smart&auto=webp&s=a8b4de661cb993624eafdf0dbf87ba43893b980d">
+<p>You have four tries to guess a number between 0 and 20.</p>
+<input id = "user-guess">
+<button id ="submit-button">Submit</button>
+<h4>Number of tries left: <span id="remaining-tries">4</span> </h4>
+
+<div class = "high-or-low" id="high-or-low">Your guess was <span id="guess-result"></span></div>
+
+<div class = "lose-or-win" id ="lose-or-win">You <span id="game-result">!</span></div>
+    <script type="module" src="app.js"></script>
+</div>   
+</body>
+
+</html>

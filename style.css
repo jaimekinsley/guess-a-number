@@ -1,0 +1,14 @@
+.high-or-low {
+    visibility: hidden;
+}
+
+.lose-or-win {
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
